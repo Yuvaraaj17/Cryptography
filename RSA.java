@@ -27,5 +27,6 @@ public class RSA {
         double msg=s.nextInt();
         double cipher=Math.pow(msg, e)%n;
         System.out.println(cipher);
+        s.close();
     }
 }

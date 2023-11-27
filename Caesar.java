@@ -16,5 +16,6 @@ public class Caesar {
             
         }
         System.out.println(cipherString);
+        s.close();
     }
 }

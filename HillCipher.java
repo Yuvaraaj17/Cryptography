@@ -62,5 +62,6 @@ public class HillCipher{
         String key= s.nextLine();
         HillCipher h=new HillCipher();
         h.encrypt(plainText,key);
+        s.close();
     }
 }

@@ -32,7 +32,7 @@ public class PlayFair {
         }
         System.out.println(newstr);
         System.out.println("Enter the key:");
-        String key=s.nextLine();
+        // String key=s.nextLine();
         s.close();
     }
 }

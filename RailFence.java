@@ -51,12 +51,13 @@ public class RailFence {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the plain text:");
-        // String plainText = s.nextLine();
-        String plainText = "geeksforgeeks";
-        System.out.println("Enter the rails:");
-        // int rail = s.nextInt();
-        int rail = 3;
+        String plainText = s.nextLine();
+        // String plainText = "geeksforgeeks";
+        // System.out.println("Enter the rails:");
+        int rail = s.nextInt();
+        // int rail = 3;
         RailFence rf = new RailFence();
         rf.encrypt(plainText, rail);
+        s.close();
     }
 }

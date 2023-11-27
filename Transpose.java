@@ -56,5 +56,6 @@ public class Transpose {
         // String key= s.nextLine();
         Transpose t=new Transpose();
         t.encrypt(plainText);
+        s.close();
     }
 }
